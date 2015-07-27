@@ -13,7 +13,7 @@
 		8B3FE2731B64834B002D93D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3FE2711B64834B002D93D6 /* Main.storyboard */; };
 		8B3FE2751B64834B002D93D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3FE2741B64834B002D93D6 /* Images.xcassets */; };
 		8B3FE2781B64834B002D93D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3FE2761B64834B002D93D6 /* LaunchScreen.xib */; };
-		8B3FE28F1B6483B1002D93D6 /* XYNavigationMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3FE28E1B6483B1002D93D6 /* XYNavigationMenu.m */; };
+		8B3FE2941B65E833002D93D6 /* XYNavigationMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3FE2931B65E833002D93D6 /* XYNavigationMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		8B3FE2721B64834B002D93D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B3FE2741B64834B002D93D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B3FE2771B64834B002D93D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8B3FE28D1B6483B1002D93D6 /* XYNavigationMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNavigationMenu.h; sourceTree = "<group>"; };
-		8B3FE28E1B6483B1002D93D6 /* XYNavigationMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNavigationMenu.m; sourceTree = "<group>"; };
+		8B3FE2921B65E833002D93D6 /* XYNavigationMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYNavigationMenu.h; sourceTree = "<group>"; };
+		8B3FE2931B65E833002D93D6 /* XYNavigationMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYNavigationMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		8B3FE2661B64834B002D93D6 /* NavigationMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8B3FE2901B65DDE6002D93D6 /* XYNavigationMenu */,
+				8B3FE2911B65E833002D93D6 /* XYNavigationMenu */,
 				8B3FE26B1B64834B002D93D6 /* AppDelegate.h */,
 				8B3FE26C1B64834B002D93D6 /* AppDelegate.m */,
 				8B3FE26E1B64834B002D93D6 /* ViewController.h */,
@@ -83,13 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8B3FE2901B65DDE6002D93D6 /* XYNavigationMenu */ = {
+		8B3FE2911B65E833002D93D6 /* XYNavigationMenu */ = {
 			isa = PBXGroup;
 			children = (
-				8B3FE28D1B6483B1002D93D6 /* XYNavigationMenu.h */,
-				8B3FE28E1B6483B1002D93D6 /* XYNavigationMenu.m */,
+				8B3FE2921B65E833002D93D6 /* XYNavigationMenu.h */,
+				8B3FE2931B65E833002D93D6 /* XYNavigationMenu.m */,
 			);
-			name = XYNavigationMenu;
+			path = XYNavigationMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +165,7 @@
 				8B3FE2701B64834B002D93D6 /* ViewController.m in Sources */,
 				8B3FE26D1B64834B002D93D6 /* AppDelegate.m in Sources */,
 				8B3FE26A1B64834B002D93D6 /* main.m in Sources */,
-				8B3FE28F1B6483B1002D93D6 /* XYNavigationMenu.m in Sources */,
+				8B3FE2941B65E833002D93D6 /* XYNavigationMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -37,8 +37,11 @@
 #pragma mark - getter and setter
 - (XYNavigationMenu *)menu {
     if (!_menu) {
-        XYMenuButton *button = [[XYMenuButton alloc] initWithTitle:@"title" buttonIcon:[UIImage imageNamed:@"Img1"]];
-        _menu = [[XYNavigationMenu alloc] initWithItems:@[button, button]];
+        XYMenuButton *button1 = [[XYMenuButton alloc] initWithTitle:@"title1" buttonIcon:[UIImage imageNamed:@"Img1"]];
+        XYMenuButton *button2 = [[XYMenuButton alloc] initWithTitle:@"title2" buttonIcon:[UIImage imageNamed:@"Img1"]];
+        XYMenuButton *button3 = [[XYMenuButton alloc] initWithTitle:@"title3" buttonIcon:[UIImage imageNamed:@"Img1"]];
+        XYMenuButton *button4 = [[XYMenuButton alloc] initWithTitle:@"title4" buttonIcon:[UIImage imageNamed:@"Img1"]];
+        _menu = [[XYNavigationMenu alloc] initWithItems:@[button1, button2, button3, button4]];
     }
     return _menu;
 }
